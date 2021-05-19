@@ -30,6 +30,34 @@ Para clonar el repositorio desde<a href = "https://colab.research.google.com/not
 import sys
 path = "/content/cnn"
 sys.path.append(path)
+```
+<p> Importar la librería convolution</p>
+
+```
+import convolution
+```
+
+## **Ejemplos**
+
+<p>Esta librería es educativa. Algunas funciones que acá se colocan representan las partes de la operación de convolución</p>
+
+<p><strong></strong></p>
+
+
+
+
+
+
+
+
+
+
+
+
+```
+import sys
+path = "/content/cnn"
+sys.path.append(path)
 
 ```
 
