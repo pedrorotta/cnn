@@ -161,7 +161,7 @@ import convolution
     <p><strong>Imagen original : </strong> </p>
     <p><img src = "https://github.com/pedrorotta/cnn/blob/main/images/perro1.jpg"></img></p>
     <p><strong>Imagen convolucionada : </strong> </p>
-    <p><img src = "https://github.com/pedrorotta/cnn/blob/main/images/convolution.png" heigth = "200" width = "300"></img></p>
+    <p><img src = "https://github.com/pedrorotta/cnn/blob/main/images/convolution2.png" heigth = "200" width = "300"></img></p>
   
 </div>
 
