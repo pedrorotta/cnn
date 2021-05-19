@@ -118,7 +118,7 @@ import convolution
 <div>
   <h3> Ejemplo 3</h3>
   <p><strong> Convolución total : </strong> Es la operación de convolución que se da entre un array de 2D y un kernel convolucional y que retorna un array entero de 8 bits
-  que permite luego, graficar una imagen convolucionada. En este ejemplo se usan 3 funciones : <strong> Convolucion2D </strong> y <strong> MatrizConvolucion.</strong></p>
+  que permite luego, graficar una imagen convolucionada. En este ejemplo se usan 3 funciones : <strong> Convolucion2D </strong> y <strong> MatrizConvolucion</strong>. La primera función calcula el valor de un array convolucionado con valores enteros. MatrizConvolucion limita los valores entre 0 y 255 y además cambia los valores a int8bits para poder ser leídos por el método Image.fromarray()</p>
   
   <p> Librerías necesarias </p>
   
@@ -126,22 +126,47 @@ import convolution
   import PIL
   form PIL import Image
   import numpy as np
+  ```
+  <p> Obtenemos la imagen : </p>
   
   ```
-  ejemplo_array = np.asarray(Image.open("/content/cnn/images/perro1.jpg"))
-  convolution.
-  
+  imagen_ejemplo = Image.open("/content/cnn/images/perro1.jpg")
   ```
   
-  <p>respuesta</p>
+  <p> Luego, obtenemos el array en un solo canal </p>
   
   ```
-  >>> array([-7,  3])
+  ejemplo_array = np.asarray(imagen_ejemplo)[:,:,0]
   ```
+  
+  <p> Este array guarda una imagen monocromática. Luego se procede a evaluar el valor de la matriz convolucionada, en este caso se ha escogido el siguiente kernel: 
+  </p>
+  
+  ```
+  mat_conv = np.array([[1,0,-1],
+                    [1,0,-1],
+                    [1,0,-1]])
+  
+  ejemplo_array_convolution = convolution.MatrizConvolucion(ejemplo_array,mat_conv) 
+  ```
+  <p> Por último se transforma en imagen utilizando el comando siguiente 
+  </p>
+  
+  ```
+  imagen_convolucionada = convolution.DeVectoraImagen(perro_gray_conv)
+  imagen_convolucionada
+  ```
+  
+  <div>
+    <p> Se puede ver la diferencia entre las imágenes aquí</p>
+    <p><strong>Imagen original : </strong> </p>
+    <p><img src = "https://github.com/pedrorotta/cnn/blob/main/images/perro1.jpg"></img></p>
+    <p><strong>Imagen convolucionada : </strong> </p>
+    <p><img src = "https://github.com/pedrorotta/cnn/blob/main/images/convolution.png"></img></p>
   
 </div>
 
-<p><img src = "https://github.com/pedrorotta/cnn/blob/main/images/perro1.jpg"></img></p>
+
 
 
 
