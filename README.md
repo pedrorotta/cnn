@@ -115,6 +115,37 @@ import convolution
 </div>
 
 
+<div>
+  <h3> Ejemplo 3</h3>
+  <p><strong> Convolución total : </strong> Es la operación de convolución que se da entre un array de 2D y un kernel convolucional y que retorna un array entero de 8 bits
+  que permite luego, graficar una imagen convolucionada. En este ejemplo se usan 3 funciones : <strong> Convolucion2D </strong> y <strong> MatrizConvolucion.</strong></p>
+  
+  <p> Librerías necesarias </p>
+  
+  ```
+  import PIL
+  form PIL import Image
+  import numpy as np
+  
+  ```
+  ejemplo_array = np.asarray(Image.open("/content/cnn/images/perro1.jpg"))
+  convolution.
+  
+  ```
+  
+  <p>respuesta</p>
+  
+  ```
+  >>> array([-7,  3])
+  ```
+  
+</div>
+
+<p><img src = "https://github.com/pedrorotta/cnn/blob/main/images/perro1.jpg"></img></p>
+
+
+
+
 
 
 
