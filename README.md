@@ -46,10 +46,12 @@ import convolution
     lo que sucede en cada transición del kernel</p>
   
   <p> Librerías necesarias </p>
+  
   ```
   import PIL
   form PIL import Image
   import numpy as np
+  
   ```
   <p> Operación </p>
 
