@@ -42,8 +42,8 @@ import convolution
 <div>
   <h3> Ejemplo 1</h3>
   <p>Esta librería es educativa. Algunas funciones que acá se colocan representan las partes de la operación de convolución: </p>
-  <p><strong> Multiplicación de kernel : </strong> Es la multiplicación que se da entre un array de 2D pero solo en el espacio de una matriz de convolución m*m. Demuestra
-    lo que sucede en cada transición del kernel</p>
+  <p><strong> Multiplicación de kernel : </strong> Es la convolución que se da entre un array de 2D del mismo tamaño. Esto es lo que sucede en cada transición del 
+    kernel</p>
   
   <p> Librerías necesarias </p>
   
@@ -56,10 +56,9 @@ import convolution
   <p> Operación </p>
 
   ```
-  a  = np.array([[10,5,10,2],
-                    [2,9, 5,7],
-                    [1,7,5,9],
-                    [5,3,1,3]])
+  a  = np.array([[10,5,10],
+                   [2,9, 5],
+                   [1,7,5]])
 
   b = np.array([[1,0,-1],
                     [1,0,-1],
@@ -71,7 +70,7 @@ import convolution
   <p>respuesta</p>
   
   ```
-  >>> -24
+  >>> -7
   ```
   
 </div>
