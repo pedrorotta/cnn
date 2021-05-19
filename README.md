@@ -24,5 +24,26 @@ Para clonar el repositorio desde<a href = "https://colab.research.google.com/not
 !git clone https://github.com/pedrorotta/cnn
 ```
 
-<p> </p>
+<p> Importar sys para enviar el path a la lista de paths</p>
+
+```
+import sys
+path = "/content/cnn"
+sys.path.append(path)
+
+```
+
+<p> Importar la librería convolution </p>
+
+```
+import convolution 
+```
+
+
+
+
+
+
+
+
 
