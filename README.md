@@ -15,6 +15,16 @@
 
 <p><img alt = "Fb logo" height = "45" src = "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/YouTube_social_white_square_%282017%29.svg/245px-YouTube_social_white_square_%282017%29.svg.png" align = "left" hspace = "10px"></img><a href = "https://www.youtube.com/channel/UCm4OyfZ5sd2-QWxYVtMI0SA"><h3>Youtube : Pedro Rotta</h3></a></p>
 
-## **Ejemplos**
+## **Instalación**
 
-<p><h1>>
+<p><h1>Clonar el repositorio: </h1>
+Para clonar el repositorio debes escribir la siguiente línea de código</p>
+
+'''
+!git clone 
+'''
+
+<p>Clonar el repositorio: </h1>
+Para clonar el repositorio debes escribir la siguiente línea de código</p>
+
+
