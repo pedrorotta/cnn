@@ -72,12 +72,47 @@ import convolution
   
   ```
   >>> -24
-  
   ```
   
 </div>
 
 
+
+
+<div>
+  <h3> Ejemplo 2</h3>
+  <p><strong> Multiplicación de Fila : </strong> Es la multiplicación que se da entre un array de 2D y un kernel convolucional pero solo en una fila del array</p>
+  
+  <p> Librerías necesarias </p>
+  
+  ```
+  import PIL
+  form PIL import Image
+  import numpy as np
+  
+  ```
+  <p> Operación </p>
+
+  ```
+  a  = np.array([[10,5,10,2],
+                    [2,9, 5,7],
+                    [1,7,5,9],
+                    [5,3,1,3]])
+
+  b = np.array([[1,0,-1],
+                    [1,0,-1],
+                    [1,0,-1]])
+
+  convolution.ConvolucionEnUnaFila(a,b)
+  ```
+  
+  <p>respuesta</p>
+  
+  ```
+  >>> array([-7,  3])
+  ```
+  
+</div>
 
 
 
