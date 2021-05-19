@@ -67,7 +67,16 @@ import convolution
 
   convolution.MultiplicacionMatriz2D(a,b)
   ```
+  
+  <p>respuesta</p>
+  
+  ```
+  >>> -24
+  
+  ```
+  
 </div>
+
 
 
 
