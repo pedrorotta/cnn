@@ -1,2 +1,2 @@
-# cnn
+# **CNN**
 Redes neuronales convolucionales 
