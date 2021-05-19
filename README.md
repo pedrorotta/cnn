@@ -18,11 +18,12 @@
 ## **Instalación**
 
 <p><h1>Clonar el repositorio: </h1>
-Para clonar el repositorio debes escribir la siguiente línea de código</p>
+Para clonar el repositorio desde<a href = "https://colab.research.google.com/notebooks/intro.ipynb?hl=es#scrollTo=5fCEDCU_qrC0">Colab</a>debes escribir la siguiente línea de código</p>
 
-'''
-!git clone 
-'''
+```
+!git clone https://github.com/pedrorotta/cnn
+```
+
 
 <p>Clonar el repositorio: </h1>
 Para clonar el repositorio debes escribir la siguiente línea de código</p>
